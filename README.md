@@ -3,9 +3,15 @@
 Playing around with `ptx`, the permuted index tool used to make concordances
 for the Unix system reference manual "back in the day" (apparently).
 
+Below is a brief exploration of reproducing the output of `ptx` using 
+Toeplitz matrices in Sage.
+
 ## Requirements
 
 - Python 3
+- Sage
+  - invoking `sage` brings up a console, and scripts can be run by using the
+    `sage-ipython` command, see below for details
 - `num2words`
   - Run `pip install num2words`
 
