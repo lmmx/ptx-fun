@@ -2,7 +2,7 @@ from string import ascii_uppercase as a
 from matrix_edits import matrix_to_alpha
 
 a_len = len(a)  # length of alphabet: 26
-ext = 4  # number of spaces: ptx uses 8
+ext = 8  # number of spaces: ptx uses 8
 
 # First column in reverse alphabetical order, will be reversed back later
 c = list(reversed(range(a_len + ext)))

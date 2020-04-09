@@ -275,6 +275,15 @@ letters at the end was something I've not done much of but really
 helped build my intuition for how all these matrices really work,
 which would have been lost if it was 'just another list').
 
+# Obligatory side-by-side
+
+![](ptx-vs-sage.png)
+
+So I think there's an off by one (in `ptx` the last letter on the rightmost
+column aligns vertically with the second-to-last of the letters after the
+spacer extension). Interesting to note, but I think you get the idea from my
+reconstruction.
+
 ---
 
 ## Two little post-scripts
